@@ -1,0 +1,167 @@
+/* PC */
+@media (min-width: 64em) {
+   
+}
+
+
+/* nhỏ hơn 1300px*/
+@media (max-width: 1360px) {
+     /*Header*/    
+
+     /*About*/
+
+    /*Recipes*/
+    .menu .menu_box {
+        grid-template-columns: 1fr 1fr 1fr ;
+        justify-items: center;
+    }
+
+    /*Feedback*/
+    .feedback .feedback_main {
+        justify-content: center;
+    }
+
+    .feedback .feedback_main form {
+        grid-template-columns: 1fr;
+    }
+    /*Footer*/
+}
+
+
+/* Tablet & Mobile */ 
+@media (max-width: 63.9375em /*1023px*/) {
+   
+    /*Header*/
+
+    section nav .logo-text{
+        display: none;
+    }    
+    
+
+     /*About*/
+
+    /*Recipes*/
+
+    /*Feedback*/
+
+    /*Footer*/
+
+
+
+}
+
+
+/* Tablet */
+@media (max-width: 63.9375em /*1023px*/) and (min-width: 46.25em /*740px*/)  {
+    /*Header*/
+    section {
+        background: url(./image/bg2.jpg) top center/cover no-repeat;
+    }
+    
+    section nav {
+        justify-content: left;
+    }
+
+    section .main {
+        justify-content: center;
+        background: url(./image/bg1.jpg) top center/cover no-repeat;
+    }
+
+    section .main .men_text {
+        max-width: 90%;
+    }
+
+    section .main .men_text h1 {
+        text-align: center;
+    }
+
+    section .main .men_text h1 span {
+        margin-left: 0px;
+    }
+    section .main .men_text p {
+        text-align: center;
+
+    }
+
+    section .main .men_text .end_text {
+        text-align: center;
+    }
+
+    section .main .main_image img {
+        display: none;
+    }
+
+    section .main_btn {
+        display: none;
+    }
+     /*About*/
+     .about {
+        height: auto;
+        
+     }
+
+     .about .about_main {
+        
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+
+    
+    .about .about_main .image img {
+        max-width: 400px;
+
+    }
+
+    .about .about_main .about_text {
+        padding-left: 50px;
+        padding-top: 70px;
+    }
+
+    /*Recipes*/
+    .menu .menu_box {
+        grid-template-columns: 1fr 1fr ;
+        justify-items: center;
+    }
+
+    /*Feedback*/
+
+    .feedback .feedback_main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feedback .feedback_main .feedback_image img {
+        width: 400px;
+
+    }
+
+    .feedback .feedback_main form {
+        grid-template-columns: 1fr;
+    }
+
+    /*Footer*/
+
+
+    /*Modal*/
+    .modal .menu_card {
+        display: none;
+    }
+
+    .modal .menu_content {
+        margin: 0px;
+    }
+}
+   
+
+
+/* Mobile */
+@media (max-width: 46.1875em/*739px*/) {
+    
+
+
+}
+
+
+
+
