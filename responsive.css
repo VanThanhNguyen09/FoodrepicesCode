@@ -9,6 +9,11 @@
      /*Header*/    
 
      /*About*/
+     .about .about_main .image img {
+        width: 600px;
+        position: relative;
+        top: 60px;
+     }
 
     /*Recipes*/
     .menu .menu_box {
