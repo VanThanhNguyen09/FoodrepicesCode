@@ -663,6 +663,8 @@ footer .end span{
     display: none;
     align-items: center;
     justify-content: center;
+    overflow: scroll ;
+    margin-top: 68px;
 
 }
 
@@ -680,7 +682,7 @@ footer .end span{
     border-radius: 10px;
     border: 2px #ff8d05 solid;
     animation: modalFadeIn ease 0.5s;
-
+    margin: auto;
 }
 
 
@@ -809,6 +811,7 @@ footer .end span{
     animation: modalFadeIn ease 0.5s;
     position: relative;
     min-width: 640px;
+    margin: auto;
 
 }
 
